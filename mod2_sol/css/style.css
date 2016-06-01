@@ -1,0 +1,64 @@
+ *{
+     box-sizing : border-box;
+     margin:0px;
+     padding:0px;
+     overflow: auto;
+     font-family:Arial, Helvetica, sans-serif;
+    }
+    h1{
+       font size：175%;
+    }
+    section{
+       position: relative;
+       margin: 10px;
+       border: 1px solid black;
+       padding: 5px;
+       background-color: gray;
+       text-align:center;
+       
+    }
+    span{
+     position: absolute;
+     top:0;
+     right:0;
+     border: 1px solid black;
+     font-size: 125%;
+    }
+    #t1{
+       background-color:red;
+    }
+    #t2{
+       background-color:blue;
+    }
+    #t3{
+       background-color:yellow;
+    }
+    
+    
+    @media(min-width: 992px)
+    {
+      /*desktop*/
+      section{
+        float: left;
+      }
+     .col-md-4{
+       width : 33.33%;
+      }
+    }
+    @media(min-width: 768px) and (max-width:991px)
+    {
+      /*tablet view*/
+      section{
+       float:left;
+      }
+      .col-md-6{
+       width : 50%;
+      }
+      .col-md-12{
+      width : 100%;
+      }
+    }
+    @media(max-width: 767px)
+      {
+        /*mobile*/
+      }
