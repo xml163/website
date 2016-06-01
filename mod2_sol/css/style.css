@@ -35,7 +35,7 @@
     }
     
     
-    @media(min-width: 992px)
+    @media (min-width:992px)
     {
       /*desktop*/
       section{
@@ -45,7 +45,7 @@
        width : 33.33%;
       }
     }
-    @media(min-width: 768px) and (max-width:991px)
+    @media (min-width:768px) and (max-width:991px)
     {
       /*tablet view*/
       section{
@@ -58,7 +58,7 @@
       width : 100%;
       }
     }
-    @media(max-width: 767px)
+    @media (max-width:767px)
       {
         /*mobile*/
       }
